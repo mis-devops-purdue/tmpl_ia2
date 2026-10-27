@@ -1,0 +1,13 @@
+[project]
+name = "phoney"
+version = "0.1.0"
+description = "A small phone-number utility"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.poetry]
+packages = [{include = "phoney", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
